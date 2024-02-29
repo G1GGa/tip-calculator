@@ -1,0 +1,34 @@
+.rightContent {
+  padding: 10vh;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: #00474b;
+  color: #fff;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.tipAmount {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.total {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.totalPerson {
+  margin-top: 20%;
+}
+.price2 {
+  margin-top: 20%;
+}
+
+.reset {
+  margin-top: 10vh;
+  height: 40px;
+  cursor: pointer;
+  background: #9fe8df;
+}

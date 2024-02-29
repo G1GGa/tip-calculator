@@ -1,0 +1,83 @@
+.leftContent {
+  width: 50%;
+}
+
+#allignRight {
+  text-align: right;
+  cursor: pointer;
+  height: 5vh;
+}
+
+.sign1 {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+.sign2 {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+.billForm {
+  margin-bottom: 5%;
+}
+
+.percent {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-right: 7%;
+}
+
+.single_tip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vh;
+  height: 5vh;
+  background: #00474b;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  &:hover {
+    background: #9fe8df;
+    transition: all 0.3s;
+  }
+  .single_tip:active {
+    background: black;
+    transition-duration: 0.2s;
+    transform: scale(0.95);
+  }
+}
+
+.custom {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 5px;
+  border: none;
+  background: #f3f9fa;
+  text-align: center;
+  cursor: pointer;
+}
+
+.peoplesFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.err_message {
+  color: red;
+  margin-right: 13%;
+}
+
+.inputLeft {
+  width: 87%;
+  background: #f3f9fa;
+  border: none;
+}
+
+.input_style {
+  margin-top: 1%;
+}
